@@ -1,0 +1,14 @@
+.hbtn:hover{
+    background-color: beige;
+    color:black;
+}
+
+.hbtns{
+     
+    background-color: rgb(85, 204, 85);
+}
+
+.hbtns:hover{
+     color:aliceblue;
+    background-color: rgb(6, 95, 6);
+}
