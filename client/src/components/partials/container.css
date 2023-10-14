@@ -13,3 +13,10 @@
     cursor: pointer;
     font-size:15px;
 }
+
+.cat {
+    position: fixed;
+    overflow: hidden;
+    
+    /* Additional styling properties */
+  }

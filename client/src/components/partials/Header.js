@@ -4,7 +4,7 @@ import "./header.css";
 const Header = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary ">
+      <nav className="navbar navbar-expand-lg bg-body-tertiary bg-light fixed-top ">
         <div className="container-fluid">
           <img src="./images/logo.png" style={{ height: "2rem" }} alt="" />
 

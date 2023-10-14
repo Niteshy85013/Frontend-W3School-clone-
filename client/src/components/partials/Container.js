@@ -3,7 +3,7 @@ import "./container.css";
 const Container = () => {
   return (
     <div>
-      <div className="container-fluid cont">
+      <div className="container-fluid cont sticky-top offset-50">
         <ul className="navbar-nav d-flex flex-row ms-2">
           <li class="nav-item dropdown ms-2 text-light litext">PYTHON</li>
           <li class="nav-item dropdown ms-4 text-light litext">JAVA</li>

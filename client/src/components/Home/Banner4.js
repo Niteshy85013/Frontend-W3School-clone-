@@ -5,7 +5,7 @@ const Banner4 = () => {
     <section className="banner4">
       <div className="container ">
         <div className="row">
-          <div className="col-md-6 banner2cont">
+          <div className="col-md-6 banner2cont ">
             <div className="col py-5 ms-5">
               <h1 className="fw-bold txt text-light">SQL</h1>
               <p className="text-light txt fs-4 fst-italic">
@@ -42,8 +42,8 @@ const Banner4 = () => {
             <img
               src="./images/sql.png"
               alt="banner2"
-              className="img-fluid mb-3 mt-3"
-              style={{ height: "25rem", width: "27.5rem" }}
+              className="img-fluid mb-3 mt-3 rounded"
+              style={{ height: "22rem", width: "27.5rem" }}
             ></img>
           </div>
         </div>
