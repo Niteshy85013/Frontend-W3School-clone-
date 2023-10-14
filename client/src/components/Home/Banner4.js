@@ -1,15 +1,15 @@
 import React from "react";
-import "./home.css";
-const Banner2 = () => {
+
+const Banner4 = () => {
   return (
-    <section className="banner2">
+    <section className="banner4">
       <div className="container ">
         <div className="row">
           <div className="col-md-6 banner2cont">
             <div className="col py-5 ms-5">
-              <h1 className="fw-bold txt">CSS</h1>
-              <p className="text-dark txt fs-4 fst-italic">
-                The language for styling web pages
+              <h1 className="fw-bold txt text-light">SQL</h1>
+              <p className="text-light txt fs-4 fst-italic">
+                The language for Accessing Database
               </p>
               <div className="txt">
                 <div>
@@ -17,7 +17,7 @@ const Banner2 = () => {
                     type="submit"
                     className="btn btn-success rounded mt-4 fw-bold border-0"
                   >
-                    Learn CSS
+                    Learn SQL
                   </button>
                 </div>
                 <div>
@@ -25,7 +25,7 @@ const Banner2 = () => {
                     type="submit"
                     className="btn btn-dark rounded mt-4 fw-bold border-0"
                   >
-                    CSS References
+                    SQL References
                   </button>
                 </div>
 
@@ -40,7 +40,7 @@ const Banner2 = () => {
           </div>
           <div className="col-md-6">
             <img
-              src="./images/b2.png"
+              src="./images/sql.png"
               alt="banner2"
               className="img-fluid mb-3 mt-3"
               style={{ height: "25rem", width: "27.5rem" }}
@@ -52,4 +52,4 @@ const Banner2 = () => {
   );
 };
 
-export default Banner2;
+export default Banner4;

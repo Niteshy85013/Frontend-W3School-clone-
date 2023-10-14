@@ -35,8 +35,20 @@
     justify-content: center;
     align-items: center;
 }
+.banner3{
+    background-color: #0a1e5b;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner4{
+    background-color: rgb(76, 168, 180);
+    justify-content: center;
+    align-items: center;
+}
+
 .b2button{
-    background-color: pink;
+    background-color: rgb(249, 172, 185);
     border: none;
     color: black;
 }
@@ -59,4 +71,22 @@
 }
 .txt{
     text-align: center;
+}
+.banner5{
+    background-color: #282b34;
+}
+.b5cont1{
+    background-color: rgb(249, 172, 185);
+}
+
+.b5cont2{
+    background-color: #fef4a2;
+}
+
+.b5cont3{
+    background-color: rgb(76, 168, 180);
+}
+
+.b5cont4{
+    background-color: #0a1e5b;
 }
