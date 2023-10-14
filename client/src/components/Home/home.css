@@ -8,9 +8,11 @@
     justify-content: center; /* Center vertically */
     align-items: center; /* Center horizontally */
     z-index: 1;
-    border-radius: 20px 10px 20px 20px / 0 0 30px 20px;
+    border-radius: 0 0 50% 50% / 0 0 10px 10px;
+    
 }
 
+ 
 /* Style for the text */
 .text-center {
     text-align: center;
@@ -47,4 +49,14 @@
 
 .head1{
     font-size: 4rem;
+}
+
+.banner2cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center;
+}
+.txt{
+    text-align: center;
 }
