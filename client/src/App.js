@@ -1,16 +1,16 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import Home from "./components/Home/Index";
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Header from "./components/partials/Header";
+
+import Main from "./components/Main";
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Main />} />
         </Routes>
       </BrowserRouter>
     </div>

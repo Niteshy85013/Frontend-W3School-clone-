@@ -1,0 +1,15 @@
+.cont{
+    background-color: #282b34;
+}
+
+.litext:hover{
+    background-color: black;
+    color:white;
+
+}
+
+.litext{
+    color:white;
+    cursor: pointer;
+    font-size:15px;
+}

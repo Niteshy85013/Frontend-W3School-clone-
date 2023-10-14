@@ -4,7 +4,7 @@ import "./header.css";
 const Header = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <nav className="navbar navbar-expand-lg bg-body-tertiary bg-light sticky ">
         <div className="container-fluid">
           <img src="./images/logo.png" style={{ height: "2rem" }} />
 
@@ -148,15 +148,15 @@ const Header = () => {
               </li>
               <li class="nav-item dropdown ms-2">
                 <form className="d-flex justify-content-center" role="search">
-                  <div class="input-group">
+                  <div class="input-group ">
                     <input
                       type="text"
-                      class="form-control"
+                      class="form-control rounded border-success border-2"
                       placeholder="Search..."
                       aria-label="Search"
                     />
-                    <button class="btn btn-primary" type="button">
-                      Search
+                    <button class="btn btn-success " type="button">
+                      <i class="bi bi-search"></i>
                     </button>
                   </div>
                 </form>
@@ -168,14 +168,14 @@ const Header = () => {
                 type="button"
                 className="btn btn-outline-dark border-0 hbtn rounded"
               >
-                Spaces
+                <i class="bi bi-code-slash ic"></i>Spaces
               </button>
 
               <button
                 type="button"
                 className="btn btn-outline-dark border-0 ms-2 hbtn rounded"
               >
-                Certificates
+                <i class="bi bi-cart3 ic"></i>Certificates
               </button>
 
               <button
