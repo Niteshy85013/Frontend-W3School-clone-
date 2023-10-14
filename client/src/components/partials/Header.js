@@ -4,12 +4,12 @@ import "./header.css";
 const Header = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary bg-light sticky ">
+      <nav className="navbar navbar-expand-lg bg-body-tertiary ">
         <div className="container-fluid">
-          <img src="./images/logo.png" style={{ height: "2rem" }} />
+          <img src="./images/logo.png" style={{ height: "2rem" }} alt="" />
 
           <button
-            className="navbar-toggler"
+            className="navbar-toggler bg-success"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -17,7 +17,7 @@ const Header = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon "></span>
           </button>
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
