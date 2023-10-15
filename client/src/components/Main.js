@@ -8,12 +8,13 @@ import Banner3 from "./Home/Banner3";
 import Banner4 from "./Home/Banner4";
 import { Banner5 } from "./Home/Banner5";
 import Banner1 from "./Home/Banner1";
+import Headers from "./partials/Header";
 
 const Main = () => {
   return (
     <>
       <div>
-        <Header />
+        <Headers />
       </div>
       <section>
         <Container />

@@ -15,7 +15,7 @@ const Banner2 = () => {
                 <div>
                   <button
                     type="submit"
-                    className="btn btn-success rounded mt-4 fw-bold border-0"
+                    className="btn btn-success rounded mt-4 fw-bold border-0 btn2s"
                   >
                     Learn CSS
                   </button>
@@ -23,7 +23,7 @@ const Banner2 = () => {
                 <div>
                   <button
                     type="submit"
-                    className="btn btn-dark rounded mt-4 fw-bold border-0"
+                    className="btn btn-dark rounded mt-4 fw-bold border-0 btn2s"
                   >
                     CSS References
                   </button>
@@ -31,7 +31,7 @@ const Banner2 = () => {
 
                 <button
                   type="submit"
-                  className="btn btn-success rounded mt-4 fw-bold b2button mb-3"
+                  className="btn btn-success rounded mt-4 fw-bold b2button mb-3 "
                 >
                   Get Certified
                 </button>

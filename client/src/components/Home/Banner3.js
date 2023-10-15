@@ -15,7 +15,7 @@ const Banner3 = () => {
                 <div>
                   <button
                     type="submit"
-                    className="btn btn-success rounded mt-4 fw-bold border-0"
+                    className="btn btn-success rounded mt-4 fw-bold border-0 btn2s"
                   >
                     Learn JavaScript
                   </button>
@@ -23,7 +23,7 @@ const Banner3 = () => {
                 <div>
                   <button
                     type="submit"
-                    className="btn btn-light rounded mt-4 fw-bold border-0"
+                    className="btn btn-light rounded mt-4 fw-bold border-0 "
                   >
                     JavaScript References
                   </button>

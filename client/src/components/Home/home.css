@@ -54,6 +54,13 @@
     background-color: rgb(249, 172, 185);
     border: none;
     color: black;
+    width: 12rem;
+    border-radius:10px;
+}
+
+.btn2s{
+    width: 12rem;
+    border-radius:30px;
 }
 
 .csscontent{
