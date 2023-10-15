@@ -21,8 +21,9 @@
   }
 
 .hsec{
-    text-decoration: underline;
-    cursor: pointer;
+    font-style: italic;
+    color:rgb(249, 172, 185);
+
 }
 
 .banner2{

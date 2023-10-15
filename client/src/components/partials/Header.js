@@ -130,7 +130,7 @@ const Header = () => {
                 type="button"
                 className="btn btn-outline-dark border-0 hbtn rounded "
               >
-                <i class="bi bi-code-slash ic"></i>Spaces
+                <i class="bi bi-code-slash ic"></i>Code Editor
               </button>
 
               <button

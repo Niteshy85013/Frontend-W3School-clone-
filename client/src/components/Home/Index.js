@@ -15,7 +15,7 @@ const Home = () => {
                 The World's Largest Developers' Sites.
               </p>
               <form
-                className="d-flex justify-content-center mt-3"
+                className="d-flex justify-content-center mt-4"
                 role="search"
               >
                 <div className="input-group">
@@ -31,8 +31,9 @@ const Home = () => {
                 </div>
               </form>
               <div>
-                <p className="hsec text-light fw-bold mt-5 ">
-                  Not Sure Where to Begin?
+                <p className="hsec fw-bold mt-3 ">
+                  Learn and write your first code Here..{" "}
+                  <i class="bi bi-code-slash hcolor"></i>
                 </p>
               </div>
             </main>
