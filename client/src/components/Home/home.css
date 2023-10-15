@@ -7,20 +7,13 @@
     flex-direction: column;
     justify-content: center; /* Center vertically */
     align-items: center; /* Center horizontally */
-    
-  
-    
 }
-
- 
 /* Style for the text */
 .text-center {
     text-align: center;
     color: #ffffff; /* Text color */
     font-size: 24px; /* Adjust font size as needed */
 }
-
-
 .hcolor{
     color: #fef4a2;
     font-weight: bold;
@@ -28,6 +21,7 @@
 
 .hsec{
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .banner2{
