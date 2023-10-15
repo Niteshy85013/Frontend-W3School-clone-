@@ -25,7 +25,7 @@ const Header = () => {
               <li class="nav-item dropdown ms-2">
                 <a
                   class="nav-link dropdown-toggle text-dark"
-                  href="#"
+                  href="/"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
@@ -35,21 +35,59 @@ const Header = () => {
                 <ul class="dropdown-menu ">
                   <li>
                     <a class="dropdown-item" href="#">
-                      Action
+                      <i class="bi bi-filetype-java ic2"></i>
+                      Java
                     </a>
                   </li>
                   <li>
                     <a class="dropdown-item" href="#">
-                      Another action
+                      <i class="bi bi-filetype-py ic2"></i>
+                      Python
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <i class="bi bi-filetype-html ic2"></i>
+                      HTML
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <i class="bi bi-filetype-css ic2"></i>
+                      CSS
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <i class="bi bi-filetype-js ic2"></i>
+                      JavaScript
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <i class="bi bi-filetype-php ic2"></i>
+                      PHP
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <i class="bi bi-filetype-py ic2"></i>
+                      Django
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <i class="bi bi-filetype-xml ic2"></i>
+                      Excel
                     </a>
                   </li>
                   <li>
                     <hr class="dropdown-divider" />
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
-                      Something else here
-                    </a>
+                    <p className=" enroll text-center text-success">
+                      Enroll Now.
+                    </p>
                   </li>
                 </ul>
               </li>
@@ -87,7 +125,6 @@ const Header = () => {
               <li class="nav-item dropdown ms-2">
                 <a
                   class="nav-link dropdown-toggle text-dark"
-                  href="#"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
@@ -96,7 +133,7 @@ const Header = () => {
                 </a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item " href="#">
+                    <a class="dropdown-item " href="/Cerificate">
                       Action
                     </a>
                   </li>

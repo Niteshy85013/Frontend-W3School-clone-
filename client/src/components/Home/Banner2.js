@@ -40,7 +40,7 @@ const Banner2 = () => {
           </div>
           <div className="col-md-6">
             <img
-              src="./images/b2.png"
+              src="./images/css.png"
               alt="banner2"
               className="img-fluid mb-3 mt-3"
               style={{ height: "25rem", width: "27.5rem" }}

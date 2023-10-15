@@ -7,6 +7,7 @@ import Hm from "./Home/Hm";
 import Banner3 from "./Home/Banner3";
 import Banner4 from "./Home/Banner4";
 import { Banner5 } from "./Home/Banner5";
+import Banner1 from "./Home/Banner1";
 
 const Main = () => {
   return (
@@ -19,6 +20,9 @@ const Main = () => {
       </section>
       <section>
         <Home />
+      </section>
+      <section>
+        <Banner1 />
       </section>
       <section>
         <Banner2 />

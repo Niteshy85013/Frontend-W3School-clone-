@@ -1,15 +1,15 @@
 import React from "react";
 
-const Banner3 = () => {
+const Banner1 = () => {
   return (
-    <section className="banner3">
-      <div className="container ">
+    <section className="banner1">
+      <div className="container">
         <div className="row">
           <div className="col-md-6 banner2cont">
             <div className="col py-5 ms-5">
-              <h1 className="fw-bold txt text-light">JavaScript</h1>
-              <p className="text-light txt fs-4 fst-italic">
-                The language for programming web pages
+              <h1 className="fw-bold txt">Java</h1>
+              <p className="text-dark txt fs-4 fst-italic">
+                A Popular Programming Language.
               </p>
               <div className="txt">
                 <div>
@@ -17,15 +17,15 @@ const Banner3 = () => {
                     type="submit"
                     className="btn btn-success rounded mt-4 fw-bold border-0"
                   >
-                    Learn JavaScript
+                    Learn JAVA
                   </button>
                 </div>
                 <div>
                   <button
                     type="submit"
-                    className="btn btn-light rounded mt-4 fw-bold border-0"
+                    className="btn btn-dark rounded mt-4 fw-bold border-0"
                   >
-                    JavaScript References
+                    JAVA References
                   </button>
                 </div>
 
@@ -40,10 +40,10 @@ const Banner3 = () => {
           </div>
           <div className="col-md-6">
             <img
-              src="./images/js1.png"
+              src="./images/javalogo.png"
               alt="banner2"
               className="img-fluid mb-3 mt-3"
-              style={{ height: "25rem" }}
+              style={{ height: "25rem", width: "27.5rem" }}
             ></img>
           </div>
         </div>
@@ -52,4 +52,4 @@ const Banner3 = () => {
   );
 };
 
-export default Banner3;
+export default Banner1;

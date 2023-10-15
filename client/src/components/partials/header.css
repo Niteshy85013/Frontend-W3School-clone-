@@ -16,4 +16,24 @@
 .ic{
     color: rgb(123, 17, 222);
 }
- 
+.ic2{
+    color: rgb(246, 105, 5);
+}
+.ic2:hover{
+    color:aliceblue;
+}
+.dropdown-item:hover{
+    background-color: rgb(104, 179, 104);
+    color: aliceblue;
+}
+
+.dropdown-item{
+    font-weight: bold;
+}
+
+.enroll{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 10px;
+    
+}
