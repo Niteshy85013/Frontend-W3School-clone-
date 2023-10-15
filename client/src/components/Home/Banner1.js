@@ -14,16 +14,14 @@ const Banner1 = () => {
               <div className="txt">
                 <div>
                   <button
-                    type="submit"
+                    type="button" // Change the type to "button" since it's not in a form
                     className="btn btn-success rounded mt-4 fw-bold border-0 btn2s"
                   >
                     Learn JAVA
                   </button>
                 </div>
-                 
-
                 <button
-                  type="submit"
+                  type="button" // Change the type to "button" since it's not in a form
                   className="btn btn-success rounded mt-4 fw-bold b2button mb-3"
                 >
                   Get Certified

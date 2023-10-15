@@ -3,7 +3,7 @@ import React from "react";
 const Banner3 = () => {
   return (
     <section className="banner3">
-      <div className="container ">
+      <div className="container">
         <div className="row">
           <div className="col-md-6 banner2cont">
             <div className="col py-5 ms-5">
@@ -14,7 +14,7 @@ const Banner3 = () => {
               <div className="txt">
                 <div>
                   <button
-                    type="submit"
+                    type="button" // Change the type to "button" since it's not in a form
                     className="btn btn-success rounded mt-4 fw-bold border-0 btn2s"
                   >
                     Learn JavaScript
@@ -22,14 +22,12 @@ const Banner3 = () => {
                 </div>
                 <div>
                   <button
-                    type="submit"
-                    className="btn btn-light rounded mt-4 fw-bold border-0 "
+                    type="button" // Change the type to "button" since it's not in a form
+                    className="btn btn-success rounded mt-4 fw-bold b2button mb-3"
                   >
-                    JavaScript References
+                    Get Certified
                   </button>
                 </div>
-
-                 
               </div>
             </div>
           </div>
