@@ -26,7 +26,7 @@ const Header = () => {
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 ms-2">
               <li class="nav-item dropdown ms-2">
                 <a
-                  class="nav-link dropdown-toggle text-dark"
+                  class="nav-link dropdown-toggle navlink"
                   href="/"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -93,97 +93,20 @@ const Header = () => {
                   </li>
                 </ul>
               </li>
-              <li class="nav-item dropdown ms-2">
-                <a
-                  class="nav-link dropdown-toggle text-dark"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
+              <li class="nav-item  ms-2">
+                <a class="nav-link  navlink" href="/">
                   Exercises
                 </a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      Action
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      Another action
-                    </a>
-                  </li>
-                  <li>
-                    <hr class="dropdown-divider" />
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      Something else here
-                    </a>
-                  </li>
-                </ul>
               </li>
-              <li class="nav-item dropdown ms-2">
-                <a
-                  class="nav-link dropdown-toggle text-dark"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
+              <li class="nav-item  ms-2">
+                <a class="nav-link  navlink" href="/">
                   Get Certified
                 </a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a class="dropdown-item " href="/Cerificate">
-                      Action
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      Another action
-                    </a>
-                  </li>
-                  <li>
-                    <hr class="dropdown-divider" />
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      Something else here
-                    </a>
-                  </li>
-                </ul>
               </li>
-              <li class="nav-item dropdown ms-2">
-                <a
-                  class="nav-link dropdown-toggle text-dark"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
+              <li class="nav-item  ms-2 ">
+                <a class="nav-link  navlink" href="/service">
                   Services
                 </a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      Action
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      Another action
-                    </a>
-                  </li>
-                  <li>
-                    <hr class="dropdown-divider" />
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      Something else here
-                    </a>
-                  </li>
-                </ul>
               </li>
               <li class="nav-item dropdown ms-2">
                 <form className="d-flex justify-content-center" role="search">
@@ -205,7 +128,7 @@ const Header = () => {
             <div className="d-flex">
               <button
                 type="button"
-                className="btn btn-outline-dark border-0 hbtn rounded"
+                className="btn btn-outline-dark border-0 hbtn rounded "
               >
                 <i class="bi bi-code-slash ic"></i>Spaces
               </button>

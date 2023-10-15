@@ -1,5 +1,5 @@
 .hbtn:hover{
-    background-color: beige;
+    background-color: rgb(231, 231, 158);
     color:black;
 }
 
@@ -44,5 +44,25 @@
 }
 
 .navbar{
-    overflow-x: auto;
+    overflow-x: 0 auto;
+
+}
+
+.navlink:hover{
+    color:rgb(204, 11, 191);
+    font-weight: bold;
+    transform: scale(1.2);
+    animation: navlink 0.2s infinite alternate;
+}
+.navlink{
+    color: black;
+}
+
+@keyframes navlink {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.05);
+    }
 }
