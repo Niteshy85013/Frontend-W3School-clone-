@@ -42,3 +42,7 @@
     background-color: #343a40;
     color: white;
 }
+
+.navbar{
+    overflow-x: auto;
+}

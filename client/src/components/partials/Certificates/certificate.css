@@ -1,11 +1,9 @@
-body{
-    background-color: #282b34;
-}
 .animated-banner {
     background-color: #fef4a2;
     color: black;
     text-align: center;
     padding: 30px;
+    overflow-x: auto;
     animation: bannerAnimation 1s infinite alternate;
 }
 

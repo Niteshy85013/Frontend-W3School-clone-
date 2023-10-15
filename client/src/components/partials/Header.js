@@ -4,8 +4,8 @@ import "./header.css";
 const Header = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary bg-light fixed-top ">
-        <div className="container">
+      <nav className="navbar navbar-expand-lg   bg-light fixed-top overflow-x: auto ">
+        <div className="container-fluid">
           <a href="/">
             <img src="./images/logopro.png" style={{ height: "3rem" }} alt="" />
           </a>

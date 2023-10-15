@@ -4,7 +4,7 @@ import "./home.css";
 const Home = () => {
   return (
     <div>
-      <div className="container curved-container">
+      <div className="container-fluid curved-container">
         <main className="text-center py-5">
           <p className="heading text-light fw-bold head1">Learn to Code</p>
           <p className="text hcolor mt-3">

@@ -1,5 +1,6 @@
 .cont{
     background-color: #282b34;
+    overflow-x: auto
 }
 
 .litext:hover{
@@ -14,9 +15,4 @@
     font-size:15px;
 }
 
-.cat {
-    position: fixed;
-    overflow: hidden;
-    
-    /* Additional styling properties */
-  }
+ 
