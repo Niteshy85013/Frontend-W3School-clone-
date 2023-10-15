@@ -7,7 +7,7 @@ const Header = () => {
       <nav className="navbar navbar-expand-lg bg-body-tertiary bg-light fixed-top ">
         <div className="container-fluid">
           <a href="/">
-            <img src="./images/logo.png" style={{ height: "2rem" }} alt="" />
+            <img src="./images/logopro.png" style={{ height: "3rem" }} alt="" />
           </a>
 
           <button

@@ -29,12 +29,7 @@ const Banner3 = () => {
                   </button>
                 </div>
 
-                <button
-                  type="submit"
-                  className="btn btn-success rounded mt-4 fw-bold b2button mb-3"
-                >
-                  Get Certified
-                </button>
+                 
               </div>
             </div>
           </div>

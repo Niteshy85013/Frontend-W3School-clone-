@@ -20,14 +20,7 @@ const Banner2 = () => {
                     Learn CSS
                   </button>
                 </div>
-                <div>
-                  <button
-                    type="submit"
-                    className="btn btn-dark rounded mt-4 fw-bold border-0 btn2s"
-                  >
-                    CSS References
-                  </button>
-                </div>
+                 
 
                 <button
                   type="submit"

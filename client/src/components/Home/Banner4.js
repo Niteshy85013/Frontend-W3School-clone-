@@ -20,14 +20,7 @@ const Banner4 = () => {
                     Learn SQL
                   </button>
                 </div>
-                <div>
-                  <button
-                    type="submit"
-                    className="btn btn-dark rounded mt-4 fw-bold border-0 btn2s"
-                  >
-                    SQL References
-                  </button>
-                </div>
+                 
 
                 <button
                   type="submit"
