@@ -8,9 +8,7 @@ const Home = () => {
         <div className="row">
           <div className="col-md-6">
             <main className="text-center py-5 mt-5">
-              <p className="heading text-light fw-bold head1 pos">
-                Learn To Code
-              </p>
+              <p className="heading text-light fw-bold head1 ">Learn To Code</p>
               <p className="text hcolor mt-3">
                 The World's Largest Developers' Sites.
               </p>

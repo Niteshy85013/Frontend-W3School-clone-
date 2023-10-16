@@ -108,20 +108,13 @@ const Header = () => {
                   Services
                 </a>
               </li>
-              <li class="nav-item dropdown ms-2">
-                <form className="d-flex justify-content-center" role="search">
-                  <div class="input-group ">
-                    <input
-                      type="text"
-                      class="form-control rounded border-success border-2"
-                      placeholder="Search..."
-                      aria-label="Search"
-                    />
-                    <button class="btn btn-success " type="button">
-                      <i class="bi bi-search"></i>
-                    </button>
-                  </div>
-                </form>
+              <li class="nav-item  ms-4 ">
+                <a
+                  class="nav-link  quotes fst-italic text-success"
+                  href="/service"
+                >
+                  "Coding is not done, it's working"
+                </a>
               </li>
             </ul>
 
