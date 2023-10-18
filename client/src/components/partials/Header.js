@@ -1,7 +1,16 @@
 import React from "react";
 import "./header.css";
 
+import { useNavigate } from "react-router-dom";
+
 const Header = () => {
+  const navigator = useNavigate();
+  const handleLoginClick = () => {
+    navigator.push("/login"); // Navigate to the "/login" route
+  };
+  const handleSignupClick = () => {
+    navigator.push("/signup"); // Navigate to the "/signup" route
+  };
   return (
     <div>
       <nav className="navbar navbar-expand-lg   bg-light fixed-top overflow-x: auto ">
@@ -36,49 +45,49 @@ const Header = () => {
                 </a>
                 <ul class="dropdown-menu ">
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a class="dropdown-item" href="/">
                       <i class="bi bi-filetype-java ic2"></i>
                       Java
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a class="dropdown-item" href="/">
                       <i class="bi bi-filetype-py ic2"></i>
                       Python
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a class="dropdown-item" href="/">
                       <i class="bi bi-filetype-html ic2"></i>
                       HTML
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a class="dropdown-item" href="/">
                       <i class="bi bi-filetype-css ic2"></i>
                       CSS
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a class="dropdown-item" href="/">
                       <i class="bi bi-filetype-js ic2"></i>
                       JavaScript
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a class="dropdown-item" href="/">
                       <i class="bi bi-filetype-php ic2"></i>
                       PHP
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a class="dropdown-item" href="/">
                       <i class="bi bi-filetype-py ic2"></i>
                       Django
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a class="dropdown-item" href="/">
                       <i class="bi bi-filetype-xml ic2"></i>
                       Excel
                     </a>
@@ -133,19 +142,23 @@ const Header = () => {
                 <i class="bi bi-cart3 ic"></i>Certificates
               </button>
 
-              <button
-                type="button"
-                className="btn btn border-0 hbtns rounded ms-2"
-              >
-                Sign Up
-              </button>
+              <a href="/signup">
+                <button
+                  type="button"
+                  className="btn btn border-0 hbtns rounded ms-2 "
+                >
+                  Sign Up
+                </button>
+              </a>
 
-              <button
-                type="button"
-                className="btn btn border-0 hbtns rounded ms-2"
-              >
-                Login
-              </button>
+              <a href="/login">
+                <button
+                  type="button"
+                  className="btn btn border-0 hbtns rounded ms-2 "
+                >
+                  Login
+                </button>
+              </a>
             </div>
           </div>
         </div>
