@@ -1,16 +1,7 @@
 import React from "react";
 import "./header.css";
 
-import { useNavigate } from "react-router-dom";
-
 const Header = () => {
-  const navigator = useNavigate();
-  const handleLoginClick = () => {
-    navigator.push("/login"); // Navigate to the "/login" route
-  };
-  const handleSignupClick = () => {
-    navigator.push("/signup"); // Navigate to the "/signup" route
-  };
   return (
     <div>
       <nav className="navbar navbar-expand-lg   bg-light fixed-top overflow-x: auto ">
@@ -118,10 +109,7 @@ const Header = () => {
                 </a>
               </li>
               <li class="nav-item  ms-4 ">
-                <a
-                  class="nav-link  quotes fst-italic text-success"
-                  href="/service"
-                >
+                <a class="nav-link  quotes fst-italic text-success">
                   "Coding is not done, it's working"
                 </a>
               </li>
