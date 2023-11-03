@@ -138,7 +138,6 @@ const Header = () => {
                   Sign Up
                 </button>
               </a>
-
               <a href="/login">
                 <button
                   type="button"
@@ -156,3 +155,9 @@ const Header = () => {
 };
 
 export default Header;
+
+
+
+
+
+
